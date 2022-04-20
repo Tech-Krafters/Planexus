@@ -1,0 +1,17 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "ChatRoom",
+  "main": "server.js",
+  "scripts": {
+    "start":  "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Aparna",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "moment": "^2.29.2",
+    "socket.io": "^4.4.1"
+  }
+}

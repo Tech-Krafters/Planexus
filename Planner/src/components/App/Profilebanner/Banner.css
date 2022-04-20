@@ -1,0 +1,39 @@
+.banner{
+    position: absolute;
+    width: 1270px;
+    height: 100px;
+    left: 27px;
+    top: 120px;
+    background: rgba(127, 156, 233, 0.24);
+    border: 1px solid rgba(22, 33, 62, 0.31);
+    box-sizing: border-box;
+    box-shadow: 2px 5px 4px 4px rgba(66, 0, 255, 0.25);
+    border-radius: 30px;
+    z-index: -1;
+}
+.bt{
+    position: relative;
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    line-height: 41px;
+    color: #FFFFFF;
+    justify-content: center;
+    text-align: left;
+    margin: 1.5rem 1rem;
+}
+.bd{
+    position: relative;
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    line-height: 41px;
+    color: #FFFFFF;
+    justify-content: center;
+    text-align: right;
+    margin: 1rem;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
